@@ -1,0 +1,34 @@
+body {
+	background-color :red;
+}
+ #navi {
+	display: flex;
+    justify-content: flex-end;
+	
+ }
+ #navi a {
+ 	
+ 	 justify-content: space-between;
+
+ }
+ #container {
+ 	display: flex;
+ 	justify-content : center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+ 	height: 500px;
+ 	flex-direction:column;
+ 	 
+ 	
+}
+#container #haut {
+	margin: 11px 4px;
+	/*border:5px green solid ;*/
+	border-radius: 20px 10px
+}
+#container #cen {
+	display: flex;
+	
+	margin: 11px 4px;
+   
+}
